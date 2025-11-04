@@ -3,62 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>aecoding.io - Expertise & Outils Open Source</title>
+  <title>A&ECoding.io - Engineering & Open Source</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+<div class="container">
   <header class="site-header">
     <nav>
-      <a href="index.html" class="logo">
-        <img src="assets/img/logo.svg" alt="aecoding.io logo" />
-      </a>
+      <a href="index.html" class="logo">aecoding.io</a>
       <ul>
-        <li><a href="#products">Produits</a></li>
-        <li><a href="#about">À propos</a></li>
+        <li><a href="products/theai.html">THEAI.io</a></li>
+        <li><a href="#ragio">RAG.io</a></li>
+        <li><a href="#llmio">LLM.io</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="home" class="hero">
-    <h1>Bienvenue chez aecoding.io</h1>
-    <p>Vos solutions expertes en RAG, LLM et monitoring open source.</p>
-    <a href="#products" class="btn-primary">Découvrir nos outils</a>
+  <section class="hero">
+    <h1>Welcome on A&ECoding.io</h1>
+    <p>Open Source, Innovation & Engineering.</p>
+    <a href="https://github.com/iwebbo" class="btn-primary">Discover all projects in GitHub</a>
   </section>
 
-  <section id="products" class="products">
-    <article class="product-card">
+  <section class="products" aria-label="Nos applications principales">
+    <article class="product-card" id="theai" tabindex="0">
       <h2>THEAI.io</h2>
-      <p>Monitoring des vulnérabilités open source, fiable et transparent.</p>
-      <a href="products/theai.html" class="btn-secondary">En savoir plus</a>
+      <p>A modern, professional server monitoring & vulnerability application built with React frontend and FastAPI backend. Monitor your servers in real-time using multiple protocols (ICMP, HTTP, SSH, TCP) with an intuitive dashboard interface.</p>
+      <a href="#" class="btn-secondary">Discover THEAI.io</a>
     </article>
 
-    <article class="product-card">
+    <article class="product-card" id="ragio" tabindex="0">
       <h2>RAG.io</h2>
-      <p>Expert RAG comptable et DevOps, avec déploiement auto via agent.</p>
-      <a href="products/rag.html" class="btn-secondary">Découvrir</a>
+      <p>Expert comptable & DevOps avec déploiement automatique via agent. Solution payante, présentation exclusive.</p>
+      <a href="#" class="btn-secondary">Discover RAG.io</a>
     </article>
 
-    <article class="product-card">
+    <article class="product-card" id="llmio" tabindex="0">
       <h2>LLM.io</h2>
-      <p>Outil LLM génératif avec contrôle précis de la température, RGPD friendly.</p>
-      <a href="products/llm.html" class="btn-secondary">Plus d'infos</a>
+      <p>Modèles LLM génératifs, paramétrables et respectueux RGPD. Open Source et modulable.</p>
+      <a href="#" class="btn-secondary">Discover LLM.io</a>
     </article>
   </section>
 
-  <section id="about" class="about">
-    <h2>À propos</h2>
-    <p>Ingénieur expert en IA et développement, je conçois des outils robustes et innovants pour les professionnels.</p>
+  <section class="about" aria-label="Présentation de aecoding.io">
+    <h2>About Me</h2>
+    <p>Senior Production & DevOps Engineer with 10+ years in banking, delivering secure, scalable and automated platforms. Expert in CI/CD, high-level troubleshooting and system engineering. Passionate about open-source and AI, building innovative, reliable and automation-driven solutions.</p>
   </section>
 
-  <section id="contact" class="contact">
+  <section class="contact" id="contact" aria-label="Contact">
     <h2>Contact</h2>
-    <p>Pour collaborer ou en savoir plus, contactez-moi.</p>
-    <a href="mailto:contact@aecoding.io" class="btn-primary">Envoyer un mail</a>
+    <p>For any business inquiries or collaboration opportunities, please send a email via <a href="mailto:l.kieran95@gmail.com">@me</a>.</p>
   </section>
 
   <footer>
-    <p>© 2025 aecoding.io — Tous droits réservés.</p>
+    &copy; 2025 aecoding.io - Tous droits réservés
   </footer>
+</div>
 </body>
 </html>
