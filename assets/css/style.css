@@ -96,6 +96,91 @@ nav a:hover {
   margin-bottom: 2rem;
 }
 
+.hero-gradient {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #1f2a56 0%, #121822 100%);
+  border-radius: var(--radius);
+  color: #c1c9e3; /* plus doux que blanc pur */
+  box-shadow: 0 12px 40px rgba(58,123,253,0.25);
+}
+
+.hero-gradient h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px rgba(58,123,253,0.3);
+  color: var(--accent);
+}
+
+.hero-gradient p {
+  font-size: 1.4rem;
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+  font-weight: 500;
+  color: #8f98b3cc;
+}
+
+.hero-minimal {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 8rem 1rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.hero-minimal h1 {
+  font-size: 4rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  color: var(--accent);
+  text-shadow: 0 0 8px rgba(58,123,253,0.3);
+}
+
+.hero-minimal p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #b0b8cc;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+
+.hero-glass {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 5rem 2rem;
+  background: rgba(20, 26, 38, 0.85);
+  border-radius: var(--radius);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 0 20px rgba(58, 123, 253, 0.25);
+  color: var(--text-main);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-glass h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  animation: fadeInUp 1s ease forwards;
+  color: var(--accent);
+  text-shadow: 0 0 8px rgba(58,123,253,0.4);
+}
+
+.hero-glass p {
+  font-size: 1.25rem;
+  max-width: 680px;
+  margin: 0 auto 2rem;
+  color: #a5aec4cc;
+  animation: fadeInUp 1.2s ease forwards;
+}
+
 .btn-primary {
   padding: 0.9rem 1.8rem;
   border-radius: var(--radius);
@@ -171,6 +256,22 @@ nav a:hover {
   color: white;
 }
 
+.features-list {
+  list-style: inside disc;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.features-list li {
+  margin-bottom: 0.6rem;
+}
+
+.features-list strong {
+  color: var(--accent);
+}
 /* --------------------
  About / Contact Sections
 -------------------- */
@@ -215,4 +316,27 @@ footer {
   color: var(--text-muted);
   font-size: 0.9rem;
   opacity: 0.8;
+}
+
+/* --------------------
+  Icon
+-------------------- */
+
+.tech-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  color: var(--accent);
+}
+
+.tech-icons i {
+  font-size: 3.5rem;
+  transition: color 0.3s ease;
+  cursor: default;
+}
+
+.tech-icons i:hover {
+  color: var(--accent-glow);
+  transform: scale(1.2);
 }

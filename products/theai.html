@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>THEAI.io — Monitoring de vulnérabilités IA</title>
   <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
@@ -13,8 +14,9 @@
   <nav>
     <a href="../index.html" class="logo">aecoding.io</a>
     <ul>
-      <li><a href="../index.html#products">Produits</a></li>
-      <li><a href="../index.html#about">À propos</a></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#products">RAG.io</a></li>
+      <li><a href="../index.html#about">LLM.io</a></li>
       <li><a href="../index.html#contact">Contact</a></li>
     </ul>
   </nav>
@@ -24,78 +26,81 @@
 <section class="hero">
   <h1>THEAI.io</h1>
   <p class="subtitle">
-    Surveillez les vulnérabilités Open Source & AI en temps réel.<br>
-    Un moteur d’observabilité pour votre supply-chain logicielle.
+    Monitoring & Vulnerability Platform.
   </p>
 
   <div class="hero-cta">
-    <a href="#" class="btn-primary">Accéder à la démo</a>
-    <a href="https://github.com/ton-repo/THEAI.io" class="btn-secondary" target="_blank">Voir le code</a>
+    <a href="#" class="btn-primary">Presentation</a>
+    <a href="https://github.com/iwebbo/THEAI" class="btn-secondary" target="_blank">Code source</a>
   </div>
 </section>
 
 <!-- PRESENTATION -->
-<section class="hero">
-  <h2>Présentation</h2>
-  <p>
-    THEAI.io est une solution de monitoring de vulnérabilités conçue pour les environnements critiques.
-    Basé sur un modèle hybride ML + base CVE, l’outil fournit **alertes instantanées**, scoring automatisé et
-    visibilité complète sur vos dépendances.
-  </p>
-  
-  <!-- Zone éditable -->
-  <p class="editable">
-    ✍️ <em>Ici tu peux ajouter ton pitch technique — architecture, ML engine, OSINT pipelines…</em>
-  </p>
+<section class="hero-glass">
+  <h2>Build with</h2>
+    <div class="tech-icons">
+    <i class="fa-brands fa-docker" title="Docker"></i>
+    <i class="fa-brands fa-linux" title="Linux"></i>
+    <i class="fa-brands fa-python" title="Python"></i>
+    <i class="fa-brands fa-github" title="Github"></i>
+    <i class="fa-brands fa-react" title="React"></i>
+  </div>
 </section>
 
 
-  <section class="products" aria-label="Nos applications principales">
-    <article class="product-card" id="theai" tabindex="0">
-      <h2>THEAI.io</h2>
-      <p>Monitoring des vulnérabilités en temps réel. Open Source, fiable et sécurisé.</p>
-      <a href="#" class="btn-secondary">En savoir plus</a>
-    </article>
+<section class="products" aria-label="Nos applications principales">
+  <article class="product-card" id="theai" tabindex="0">
+    <h2>Current Features</h2>
+    <ul class="features-list">
+      <li><strong>Multi-Protocol Monitoring :</strong> Support for ICMP (ping), HTTP/HTTPS, and SSH monitoring</li>
+      <li><strong>Real-time Dashboard :</strong> Modern, responsive interface with server status overview</li>
+      <li><strong>Server Management :</strong> Add, edit, delete, and configure servers to monitor</li>
+      <li><strong>Automated Checks :</strong> Periodic server health checks with configurable intervals</li>
+      <li><strong>Modern UI :</strong> Visual status indicators and response time monitoring</li>
+      <li><strong>Settings Panel :</strong> Configure monitoring intervals, alerts, and preferences</li>
+      <li><strong>Dockerized Deployment :</strong> Complete containerized setup with Docker Compose</li>
+      <li><strong>Authentication System :</strong> JWT-based login with environment-configured default user</li>
+    </ul>
+  </article>
 
-    <article class="product-card" id="ragio" tabindex="0">
-      <h2>RAG.io</h2>
-      <p>Expert comptable & DevOps avec déploiement automatique via agent. Solution payante, présentation exclusive.</p>
-      <a href="#" class="btn-secondary">Découvrir RAG.io</a>
-    </article>
+  <article class="product-card" id="theai" tabindex="0">
+    <h2>Monitoring Capabilities</h2>
+    <ul class="features-list">
+      <li><strong>ICMP Ping :</strong> Basic connectivity testing with response time measurement</li>
+      <li><strong>TCP :</strong> TCP availability with custom ports</li>
+      <li><strong>HTTP/HTTPS Monitoring :</strong> Web service availability with custom ports and paths</li>
+      <li><strong>SSH Connectivity:</strong> SSH service monitoring with authentication support</li>
+      <li><strong>Response Time Tracking :</strong> Monitor and track server response times</li>
+      <li><strong>Status History :</strong> Track server status changes over time</li>
+    </ul>
+  </article>
 
-    <article class="product-card" id="llmio" tabindex="0">
-      <h2>LLM.io</h2>
-      <p>Modèles LLM génératifs, paramétrables et respectueux RGPD. Open Source et modulable.</p>
-      <a href="#" class="btn-secondary">Explorer LLM.io</a>
-    </article>
-  </section>
+  <article class="product-card" id="theai" tabindex="0">
+    <h2>Vulnerability Scanning</h2>
+    <ul class="features-list">
+      <li><strong>Critical Ports Detection :</strong> Identifies dangerous open ports that pose security risks.</li>
+      <li><strong>SSL/TLS Security Check :</strong> Validates HTTPS protocol configuration</li>
+      <li><strong>Real-time Results :</strong> Synchronous execution with immediate feedback</li>
+      <li><strong>Advanced Port Scanning :</strong> Extended port analysis and service detection</li>
+      <li><strong>Protocol Vulnerability Detection :</strong> Identifies protocol-specific weaknesses</li>
+      <li><strong>Technology Stack Assessment :</strong> Detects and analyzes installed services and versions</li>
+      <li><strong>Detailed Vulnerability Reporting :</strong> Complete vulnerability descriptions with severity ratings</li>
+      <li><strong>Background Execution :</strong> Asynchronous scanning for large-scale deployments</li>
+    </ul>
+  </article>
+</section>
 
   <section class="about" aria-label="Présentation de aecoding.io">
-    <h2>À propos</h2>
-    <p>aecoding.io est votre vitrine d'expertises dans les outils open source et solutions innovantes. Un concentré de savoir-faire pour vos projets professionnels.</p>
+    <h2>About</h2>
+      <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
   </section>
 
-  <section class="contact" id="contact" aria-label="Contact">
-    <h2>Contactez-moi</h2>
-    <p>Pour toute demande commerciale ou collaboration, envoyez un message via <a href="mailto:contact@aecoding.io">contact@aecoding.io</a>.</p>
+  <section class="about" aria-label="Contact">
+    <h2>Contact me</h2>
+    <p>Built with ❤️ for system administrators and DevOps engineers</p>
+    <p>For questions, suggestions, or support, please open an issue or contact the maintainers.<a href="mailto:l.kieran95@gmail.com">@me</a>.</p>
   </section>
 
-<!-- OPEN SOURCE -->
-<section class="content-block">
-  <h2>Open Source</h2>
-  <p>
-    THEAI.io repose sur une architecture ouverte.
-    Contribuez, fork, améliorez, auditez chaque composant.
-  </p>
-
-  <a href="https://github.com/ton-repo/THEAI.io" class="btn-secondary" target="_blank">Voir le GitHub</a>
-</section>
-
-<!-- CTA FINAL -->
-<section class="hero">
-  <h2>Prêt à sécuriser vos pipelines ?</h2>
-  <a href="../index.html#contact" class="btn-primary">Contact commercial</a>
-</section>
 
 <footer>
   <p>© 2025 aecoding.io — Tous droits réservés.</p>
