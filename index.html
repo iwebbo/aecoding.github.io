@@ -7,12 +7,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+      .logo-img {
+      height: 90px;
+      width: auto;
+      object-fit: contain;
+      }
+      .app-img {
+      height: 140px;
+      width: auto;
+      object-fit: contain;
+      }
+</style>
 </head>
 <body>
 <div class="container">
   <header class="site-header">
     <nav>
-      <a href="index.html" class="logo">aecoding.io</a>
+      <a href="index.html" class="logo">
+        <img src="assets/img/logo.png" alt="A&ECoding Logo" class="logo-img" />
+      </a>
       <ul>
         <li><a href="products/theai.html">THEAI.io</a></li>
         <li><a href="#ragio">RAG.io</a></li>
@@ -30,12 +44,14 @@
 
   <section class="products" aria-label="Nos applications principales">
     <article class="product-card" id="theai" tabindex="0">
+      <img src="assets/img/theai.png" alt="THEAI.io logo" class="app-img" />
       <h2>THEAI.io</h2>
       <p>A modern, professional server monitoring & vulnerability application built with React frontend and FastAPI backend. Monitor your servers in real-time using multiple protocols (ICMP, HTTP, SSH, TCP) with an intuitive dashboard interface.</p>
       <a href="products/theai.html" class="btn-secondary">Discover THEAI.io</a>
     </article>
 
     <article class="product-card" id="ragio" tabindex="0">
+      <img src="assets/img/ragio.png" alt="RAG.io logo" class="app-img" />
       <h2>RAG.io</h2>
       <p>RAG.IO transforms your document repositories into expert assistants that do more than just respond — they take action: DevOps orchestrate infrastructures with Terraform/K8s, Accounting generates your chart of accounts and sends approvals, Legal analyzes contracts, HR handles requests — all through a zero-config graphical interface, multi-LLM, multi-source (Git, Wiki, live URLs), deployable in 5 minutes via Docker, ready for Agentic workflows starting tomorrow.</p>
       <a href="#" class="btn-secondary">Discover RAG.io</a>
